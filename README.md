@@ -1,5 +1,7 @@
 # Who's Not Following Me
 
+Find out which users don't follow you back on Instagram.
+
 This a small script meant to be used inside the DevTools of your browser.
 
 It works best on small/medium sized accounts, since it requires you to manually open up your follower list and scroll all the way to the bottom of it.
@@ -8,7 +10,7 @@ It works best on small/medium sized accounts, since it requires you to manually 
 
 ### Saving your follower list to LocalStorage
 
-- Open your personal instagram profile and click on the Followers button, and scroll down all the way to the bottom of your follower list.
+- Open your personal Instagram profile and click on the Followers button, and scroll down all the way to the bottom of your follower list.
 - Copy the contents of `main.js` to your DevTools console.
 - Replace both `<your_ig_username_here>` placeholders with your actual Instagram username, as a `String`.
 - Uncomment the call to the `listAndSaveUsers` function.
@@ -18,9 +20,10 @@ This will print all the users that are following you to the console and save the
 
 ### Seeing who doesn't follow you back
 
-- Open your personal instagram profile and click on the Following button, and scroll down all the way to the bottom of your folloing list.
+- Open your personal Instagram profile and click on the Following button, and scroll down all the way to the bottom of your folloing list.
 - Copy the contents of `main.js` to your DevTools console.
 - Replace both `<your_ig_username_here>` placeholders with your actual Instagram username, as a `String`.
+- Comment the call to the `listAndSaveUsers` function.
 - Uncomment the call to the `findUsersThatDontFollowBack` function.
 - Run the script.
 
