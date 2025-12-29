@@ -20,7 +20,7 @@ This will print all the users that are following you to the console and save the
 
 ### Seeing who doesn't follow you back
 
-- Open your personal Instagram profile and click on the Following button, and scroll down all the way to the bottom of your folloing list.
+- Open your personal Instagram profile and click on the Following button, and scroll down all the way to the bottom of your following list.
 - Copy the contents of `main.js` to your DevTools console.
 - Replace both `<your_ig_username_here>` placeholders with your actual Instagram username, as a `String`.
 - Comment the call to the `listAndSaveUsers` function.
